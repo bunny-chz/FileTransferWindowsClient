@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Widget</class>
+ <widget class="QWidget" name="Widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1083</width>
+    <height>713</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Widget</string>
+  </property>
+  <widget class="QToolButton" name="toolButton_2">
+   <property name="geometry">
+    <rect>
+     <x>740</x>
+     <y>20</y>
+     <width>111</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>发送文字信息</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>111</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>接收的文字信息</string>
+   </property>
+  </widget>
+  <widget class="QToolButton" name="toolButton">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>20</y>
+     <width>111</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>接收文字信息</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="textEdit_3">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>70</y>
+     <width>521</width>
+     <height>361</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>20</y>
+     <width>111</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>发送文字信息</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="textEdit_4">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>70</y>
+     <width>521</width>
+     <height>361</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>30</y>
+     <width>201</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>（点击按钮获取最新的信息）</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>470</y>
+     <width>321</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>440</y>
+     <width>231</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>设置服务器主机和端口</string>
+   </property>
+  </widget>
+  <widget class="QToolButton" name="toolButton_3">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>470</y>
+     <width>131</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>设置并保存</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>570</x>
+     <y>440</y>
+     <width>501</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>文件下载目录在 C:\FileTransfer Files\Download\</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_8">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>560</y>
+     <width>381</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="textFormat">
+    <enum>Qt::RichText</enum>
+   </property>
+   <property name="wordWrap">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QToolButton" name="toolButton_4">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>560</y>
+     <width>121</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>选择文件</string>
+   </property>
+  </widget>
+  <widget class="QToolButton" name="toolButton_5">
+   <property name="geometry">
+    <rect>
+     <x>910</x>
+     <y>470</y>
+     <width>151</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>清空下载文件记录</string>
+   </property>
+  </widget>
+  <widget class="QTextBrowser" name="textBrowser">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>530</y>
+     <width>521</width>
+     <height>171</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QToolButton" name="toolButton_6">
+   <property name="geometry">
+    <rect>
+     <x>740</x>
+     <y>470</y>
+     <width>151</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>查看下载文件记录</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_9">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>540</y>
+     <width>111</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>选择文件发送</string>
+   </property>
+  </widget>
+  <widget class="QToolButton" name="toolButton_7">
+   <property name="geometry">
+    <rect>
+     <x>570</x>
+     <y>470</y>
+     <width>151</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>下载服务器文件</string>
+   </property>
+  </widget>
+  <widget class="QToolButton" name="toolButton_8">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>640</y>
+     <width>121</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>发送文件</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

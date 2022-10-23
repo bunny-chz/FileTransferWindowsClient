@@ -22,7 +22,7 @@ https://github.com/bunny-chz/FileTransferAndroid
 
 ----------------------------------------------------------
 
-**开发环境**：
+**开发环境**
 
 Windows QT 5.14.2
 

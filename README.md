@@ -12,11 +12,11 @@
 
 可以在局域网内基于HTTP协议，实现电脑，安卓，网页浏览器三端数据互通
 
-电脑服务器端请看这里
+电脑服务器端请看这里（用到了QtWebApp）
 
 https://github.com/bunny-chz/FileTransferWindowsServer
 
-手机端服务器端和客户端
+手机端服务器端和客户端（用到了NanoHTTPD,Retrofit）
 
 https://github.com/bunny-chz/FileTransferAndroid
 

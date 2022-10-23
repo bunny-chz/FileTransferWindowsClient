@@ -26,6 +26,7 @@ https://github.com/bunny-chz/FileTransferAndroid
 
 Windows QT 5.14.2
 
+------------------------
 
 本应用可以实现向自建服务器发送文本信息和上传文件，从自建服务器接收文本信息和下载文件。
 

@@ -5,6 +5,9 @@
 
 使用QT的QNetworkAccessManager类进行GET,POST请求
 
+抖音视频演示：
+
+https://v.douyin.com/rbRMCXE/
 
 -----------------------------------------------------------
 
